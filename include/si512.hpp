@@ -9,5 +9,6 @@ public:
     esp_err_t init();
 
 private:
+    static const constexpr char *TAG = "si512";
     si5xx_comm &comm;
 };
